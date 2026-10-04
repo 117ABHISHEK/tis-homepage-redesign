@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import CustomCursor from "@/components/animation/CustomCursor";
 import ScrollProgress from "@/components/animation/ScrollProgress";
+import Footer from "@/components/layout/Footer";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -35,6 +36,7 @@ export default function RootLayout({
         <CustomCursor />
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
